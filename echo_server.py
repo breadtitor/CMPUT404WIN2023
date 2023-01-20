@@ -28,6 +28,7 @@ while True:
             break
     # Close the client's connection
     conn.close()
+    print("Client disconnected")
 
 # Close the server socket
 s.close()
